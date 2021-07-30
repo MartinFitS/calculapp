@@ -1,0 +1,89 @@
+.formula-div{
+    width: 100%;
+    height: auto;
+}   
+
+.div-form__formula{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.box-inputs{
+    display: block;
+    width: 100%;
+    height:auto;
+}
+
+.box-inputs h2{
+    font-size: 21px;
+    margin: 18px;
+    color: #64F58D;
+}
+
+.box-inputs input{
+    color: #64F58D;
+    padding: 10px;
+    width: 75%;
+    height: 29px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    background: transparent;
+    border: 2px solid #64F58D;
+    border-radius: 30px;
+}
+
+.box-inputs input::placeholder{
+    color: #64F58D;
+}
+
+form button{
+    color: #64F58D;
+    width: 40%;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #64F58D;
+    border-radius: 30px;
+    margin-left: 21px;
+    margin-bottom: 20px;
+}
+
+form button:hover{
+    transition:250ms;
+    cursor: pointer;
+    background-color: #64F58D;
+    color: #307543;
+}
+
+.reult-formula_{
+    font-weight: 100;
+}
+
+.resultFormula{
+    font-weight: 800;
+}
+
+.result-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.square-img{
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.square-img span{
+    font-size: 15px;
+    font-weight: 800;
+    color: #64F58D;
+}
+
+
+.square-img img{
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,132 @@
+.main_calculators{
+    width: 100%;
+    height: 800px;
+    background-color:#64F58D ;
+}
+
+.header-bar_calculator{
+    width: 70%;
+    height: auto;
+}
+
+.left-header__bar___calculator{
+    width: 70%;
+    height: auto;
+}
+
+.header-bar_calculator{
+    width: 100%;
+    height: 350px;
+    border-bottom-right-radius: 500%;
+    background-color: #307543;
+    display: flex;
+}
+
+.menu-header__bar___calculator {
+    width: 30%;
+}
+.menu-header__bar___calculator ul{
+    display: flex;
+}
+
+.left-li_calculator{
+padding-right: 10%;
+}
+
+.menu-header__bar___calculator ul li {
+    font-size: 19px;
+    padding-top: 28px;
+    list-style: none;
+    color: #64F58D;
+    padding-left: 10%;
+    margin-left: 67px;
+}
+
+.menu-header__bar___calculator ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header-bar_calculator h1{
+    font-size: 35px;
+    padding:25px;
+    color: #64F58D;
+    font-weight: 100;
+}
+
+
+.middle-page_calculator{
+    width: 100%;
+    text-align: center;
+}
+
+.middle-page_calculator h1{
+    font-size: 50px;
+    color:#64F58D;
+    font-weight: 100;
+}
+
+.middle-page_calculator button{
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 30px;
+    border:1px solid #64F58D ;
+    color: #64F58D;
+    cursor: pointer;
+}
+
+.middle-page_calculator button:hover{
+    transition: 125ms;
+    background-color:#64F58D;
+    border:1px solid #307543 ;
+    color: #307543;
+}
+
+.div-formulas{
+    margin: 0 auto;
+    border: 3px solid #307543;
+    border-radius: 30px;
+    width: 70%;
+    height: auto;
+    background-color: #307543;
+}
+
+.div-formulas h1 {
+    font-size: 24px;
+    color: #64F58D;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-weight: 100;
+    width: 27%;
+}
+
+.div-first__election{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.input-select {
+    color: #64F58D;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    width: 95%;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #64F58D;
+    border-radius: 30px;
+}
+
+.input-select:hover{
+    cursor: pointer;
+    transition: 250ms;
+    background-color: #64F58D;
+    color: #307543;
+}
+
+.div-first__election form{
+    width: 100%;
+}
