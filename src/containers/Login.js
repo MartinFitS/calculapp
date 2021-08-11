@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { login, authenticateUser } from "../actions"
 import "../assets/styles/Login.css";
+import Swal from "sweetalert2";
 
 const Login = props => {
     const userNew = props.user !== undefined ? props.user : [];
@@ -28,10 +29,25 @@ const Login = props => {
     const handleSubmit = event => {
         if(loginSuccesfully){
             event.preventDefault();
+            Swal.fire({
+                icon: 'success',
+                title: 'Bienvenido a CALCulator',
+                text: 'Has sido logueado exitosamente',
+                confirmButtonText:"Aceptar",
+                confirmButtonColor: '#307543'
+            })
             props.history.push("/");
             props.login(loginSuccesfully);
             props.authenticateUser(confirmationUserNotNull);
         }else{
+            event.preventDefault();
+            Swal.fire({
+                title:"Lo sentimos",
+                text:"El usuario y/o contraseña son incorrectos",
+                icon:"error",
+                confirmButtonText:"Aceptar",
+                confirmButtonColor: '#307543'
+            })
             props.history.push("/register");
         }
     }

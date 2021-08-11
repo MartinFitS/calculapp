@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import circulo from "../assets/img/circulo.png"
 
 const Circle = () => {
     const pi = 3.14;
@@ -44,7 +45,11 @@ const Circle = () => {
                         </input>
                     </div>         
                 </form>
+                <div className="result-div">
                 {isNaN(formulaCircle(radio,pi)) ?null:<h1 className="reult-formula_">El área del círculo es de: <span className="resultFormula">{formulaCircle(radio,pi)}cm</span></h1> }
+                    <div className="square-img"><img alt="circulo-img" src={circulo}></img><span>Circulo</span></div>
+                </div>
+                
             </div>
         </div>
     )

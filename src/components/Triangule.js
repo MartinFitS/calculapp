@@ -1,5 +1,5 @@
 import React , {useState} from "react";
-
+import triangulo from "../assets/img/triangulo.png"
 const Triangule = () => {
     let [baseTriangule ,setBase] = useState(null);
     let [heightTriangule, setHeight] = useState(null);
@@ -61,7 +61,11 @@ const Triangule = () => {
                         </input>
                     </div>                 
                 </form>
-                {isNaN(formulaTriangule(base,height)) ?null:<h1 className="reult-formula_">El área del triángulo es de: <span className="resultFormula">{formulaTriangule(base,height)}cm</span></h1> }
+                <div className="result-div">
+                    {isNaN(formulaTriangule(base,height)) ?null:<h1 className="reult-formula_">El área del triángulo es de: <span className="resultFormula">{formulaTriangule(base,height)}cm</span></h1> }
+                    <div className="square-img"><img alt="triangulo-img" src={triangulo}></img><span>Triangulo</span></div>
+                </div>
+                
             </div>
         </div>
     )
