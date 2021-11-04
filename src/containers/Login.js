@@ -70,6 +70,7 @@ const Login = props => {
                       placeholder="Email"
                       onChange={handleInput}
                       name="confirmationUser"
+                      required
                       />
                      <input 
                       className="input_login" 
@@ -77,6 +78,7 @@ const Login = props => {
                       placeholder="Contaseña"
                       onChange={handleInput}
                       name="confirmationPassword"
+                      required
                      />
                      <button className="button_login">Iniciar Sesión</button>
                 </form>

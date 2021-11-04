@@ -99,3 +99,64 @@
     cursor: pointer;
     color: #64F58D;
 }
+
+@media(max-width:1024px){
+    .main-login {
+        height: 1365px;
+    }
+    .title-register__login h1 {
+        margin-top: 19px;
+        color: #64F58D;
+        font-size: 56px;
+        margin-bottom: 99px;
+        margin-left: 23px;
+        font-weight: 100;
+    }
+    .register-form__login {
+        margin: 0 auto;
+        width: 50%;
+        height: 800px;
+        border-radius: 30px;
+        border: 3px solid #64F58D;       
+    }
+    .register-form__login h1 {
+        font-size: 58px;
+        padding-bottom: 0px;
+    }
+    .input_login {
+        width: 475px;
+        margin-top: 28px;
+        height: 51px;
+        margin-left: 13px;
+        background-color: transparent;
+        border: 1px solid #64F58D;
+        color: #64F58D;
+        border-radius: 30px;
+        padding: 10px;
+        font-size: 19px;
+    }
+    .button_login {
+        width: 97%;
+        height: 45px;
+        margin-left: 4%;
+        background-color: #64F58D;
+        color: #307543;
+        border: 2px solid transparent;
+        border-radius: 30px;
+        margin-top: 34px;
+        font-size: 21px;
+    }
+    .register-form__login p {
+        display: inline-block;
+        padding-right: 5px;
+        padding-top: 30px;
+        padding-left: 5%;
+        color: #64F58D;
+        font-size: 23px;
+    }
+    .register-form__login span {
+        color: #64F58D;
+        font-weight: bold;
+        font-size: 23px;
+    }
+}

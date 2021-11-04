@@ -130,3 +130,38 @@ padding-right: 10%;
 .div-first__election form{
     width: 100%;
 }
+
+@media(max-width: 1024px){
+    .main_calculators {
+        height: 1366px;
+    }
+    .header-bar_calculator h1 {
+        font-size: 56px;
+    }
+    .menu-header__bar___calculator ul li {
+        font-size: 29px;
+        padding-top: 38px;
+        padding-left: 0%;
+    }
+    .div-formulas h1 {
+        font-size: 35px;
+        color: #64F58D;
+        padding-top: 15px;
+        padding-left: 27px;
+        font-weight: 100;
+        width: 46%;
+        padding-bottom: 10px;
+    }
+    .input-select {
+        color: #64F58D;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        width: 95%;
+        height: 48px;
+        background-color: transparent;
+        border: 1px solid #64F58D;
+        border-radius: 30px;
+        font-size: 21px;
+    }
+}

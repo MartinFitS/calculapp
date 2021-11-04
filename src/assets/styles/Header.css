@@ -104,3 +104,50 @@ padding-right: 10%;
 .footer a{
     text-decoration: none;
 }
+
+@media(max-width:1024px){
+    .header {
+        height: 1360px;
+    }
+    .header-bar {
+        height: 650px;
+    }
+    .header-bar h1 {
+        font-size: 69px;
+        font-weight: 100;
+    }
+    .menu-header__bar {
+        width: 50%;
+    }
+    .menu-header__bar ul li {
+        font-size: 29px;
+        margin-left: 47px;
+        padding-top: 47px;
+    }
+    .middle-page h1 {
+        font-size: 65px;
+    }
+    .middle-page button {
+        margin-top: 10px;
+        width: 300px;
+        height: 67px;
+        font-size: 22px;
+        font-weight: 100;
+    }
+    .footer h1 {
+        font-size: 33px;
+        font-weight: 100;
+        text-align: end;
+        width: auto;
+        height: auto;
+        padding-top: 395px;
+        padding-right: 11px;
+        color: #64F58D;
+    }
+}
+
+@media(max-width:601px){
+    .header {
+        height: 1675px;
+    }
+}
