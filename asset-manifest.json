@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MartinFitS/calculapp/static/css/main.dab6035b.chunk.css",
+    "main.js": "/MartinFitS/calculapp/static/js/main.529c822c.chunk.js",
+    "main.js.map": "/MartinFitS/calculapp/static/js/main.529c822c.chunk.js.map",
+    "runtime-main.js": "/MartinFitS/calculapp/static/js/runtime-main.78aeafc5.js",
+    "runtime-main.js.map": "/MartinFitS/calculapp/static/js/runtime-main.78aeafc5.js.map",
+    "static/js/2.fd50466f.chunk.js": "/MartinFitS/calculapp/static/js/2.fd50466f.chunk.js",
+    "static/js/2.fd50466f.chunk.js.map": "/MartinFitS/calculapp/static/js/2.fd50466f.chunk.js.map",
+    "index.html": "/MartinFitS/calculapp/index.html",
+    "static/css/main.dab6035b.chunk.css.map": "/MartinFitS/calculapp/static/css/main.dab6035b.chunk.css.map",
+    "static/js/2.fd50466f.chunk.js.LICENSE.txt": "/MartinFitS/calculapp/static/js/2.fd50466f.chunk.js.LICENSE.txt",
+    "static/media/circulo.5723802c.png": "/MartinFitS/calculapp/static/media/circulo.5723802c.png",
+    "static/media/triangulo.843dbe03.png": "/MartinFitS/calculapp/static/media/triangulo.843dbe03.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78aeafc5.js",
+    "static/js/2.fd50466f.chunk.js",
+    "static/css/main.dab6035b.chunk.css",
+    "static/js/main.529c822c.chunk.js"
+  ]
+}
