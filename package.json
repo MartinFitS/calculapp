@@ -1,6 +1,6 @@
 {
   "homepage":"https://github.com/MartinFitS/calculapp" ,
-  "name": "calculator",
+  "name": "calculapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
